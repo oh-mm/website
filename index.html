@@ -1,85 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OHMM Software</title>
-  <!-- TODO:: Move 'style' section into a CSS file. -->
-  <style>
-    .container {
-      display: flex;           
-      gap: 20px;               
-      align-items: flex-start; 
-    }
-
-    .left {
-      flex-shrink: 0;          
-    }
-
-    .left img {
-      width: 300px;            
-      height: auto;
-      border: 1px solid #ccc;
-    }
-
-    .right {
-      display: flex;
-      flex-direction: column;  
-      gap: 10px;
-    }
-
-    .right h3 {
-      margin: 0;
-    }
-
-    .right p {
-      margin: 0;
-    }
-</style>
+  <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
   <div class="container">
-    <!-- Company Logo -->
+    <!-- Company logo -->
     <div class="left">
-      <h1> OHMM Software LLC </h1>
-      <img src="Images/dummy_logo.png" alt="Company Logo" width="500" height="500">
+      <h1>OHMM Software</h1>
+      <img src="/images/dummy_logo_modified.png" alt="Company logo" class="logo">
     </div>
 
-    <!-- Company information, products, ect -->
+    <!-- Company information, products, etc. -->
     <div class="right">
-      <h2> About </h2>
-        <p style="margin-left: 30px;"> "Mission Statement". </p>
+      <h2>About</h2>
+      <p>We are well-adjusted adults who want to make a trillion dollars and put it in a big pile so we don't have to share it with anyone.</p>
 
-      <h2> Founders </h2>
-        <!-- Matthew Information -->
-        <div style="display: flex; align-items: center; margin-left: 30px;">
-          <img src="Images/matt_headshot.jpg" alt="Matthew profile pic." width="50" height="50"> 
-          <h3 style="margin-left: 10px"> Matthew Dutson </h3>
+      <h2>People</h2>
+      <!-- Matthew information -->
+      <div class="entity">
+        <img src="/images/matt_headshot.jpg" alt="Matthew profile picture" class="thumbnail">
+        <div class="description">
+          <h3>Matthew Dutson</h3>
+          <p>Matthew is a computer sciences PhD student at the University of Wisconsin—Madison, advised by Mohit Gupta.
+          </p>
+          <a href="https://mdutson.net">Website</a>
         </div>
+      </div>
 
-        <p style="margin-left: 60px;"> Matthew is a computer sciences PhD student at the University of Wisconsin—Madison, advised by Mohit Gupta. Broadly, his research interests include computational imaging, computer vision, computer graphics, and machine learning. </p>
-        <a href="https://mdutson.net" style="margin-left: 60px;"> Website </a>
-
-        <!-- Sam Information -->
-        <div style="display: flex; align-items: center; margin-left: 30px;">
-          <img src="Images/sam_headshot.jpg" alt="Sam profile pic." width="50" height="50"> 
-          <h3 style="margin-left: 10px"> Sam Dutson </h3>
+      <!-- Sam information -->
+      <div class="entity">
+        <img src="/images/sam_headshot.jpg" alt="Sam profile picture" class="thumbnail">
+        <div class="description">
+          <h3>Sam Dutson</h3>
+          <p>Sam is a computer science student at the University of Utah. His interests include, but are not limited to,
+            Graph Algorithms, Database Management, Cryptography, and Applied Optimization.</p>
+          <a href="https://www.linkedin.com/in/samuel-dutson-5198a5347/">LinkedIn</a>
         </div>
-
-        <p style="margin-left: 60px;"> Sam is a computer science student at the University of Utah. His interests include, but are not limited to, Graph Algorithms, Database Management, Cryptography, and Applied Optimization. </p>
-        <a href="https://www.linkedin.com/in/samuel-dutson-5198a5347/" style="margin-left: 60px;"> Linkedin</a>
-
+      </div>
 
       <h2> Products </h2>
 
-        <!-- Chop-Chop Information -->
-        <div style="display: flex; align-items: center; margin-left: 30px;">
-          <img src="Chop-Chop logo here" alt="Chop-Chop logo." width="50" height="50"> 
-          <h3 style="margin-left: 10px"> Chop-Chop </h3>
+      <div class="entity">
+        <img src="/images/dummy_logo_modified.png" alt="Chop-Chop logo" class="thumbnail">
+        <div class="description">
+          <h3>Chop-Chop</h3>
+          <p>Product information here.</p>
+          <a href="https://github.com/ohmm-software/chop-chop">GitHub</a>
         </div>
-
-        <p style="margin-left: 60px;"> Product Information and Download link here. </p>
+      </div>
     </div>
-  </div>
 </body>
+
 </html>

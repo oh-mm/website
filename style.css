@@ -1,0 +1,40 @@
+.container {
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.description {
+    margin-left: 10px;
+}
+
+.entity {
+    align-items: center;
+    display: flex;
+}
+
+.left {
+    flex-shrink: 0;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right h3,
+p {
+    margin: 0;
+}
+
+.thumbnail {
+    height: 50px;
+    width: 50px;
+}
