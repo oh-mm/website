@@ -1,8 +1,8 @@
 .container {
     align-items: flex-start;
     display: flex;
-    gap: 20px;
     flex-direction: column;
+    gap: 20px;
 }
 
 .description {
@@ -12,6 +12,7 @@
 .entity {
     align-items: center;
     display: flex;
+    padding: 15px;
 }
 
 .logo {
@@ -26,3 +27,25 @@
     width: 50px;
     border-radius: 50%;
 }
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: hsl(219, 79%, 65%);
+  }
+
+  a:visited {
+    color: hsl(260, 57%, 65%);
+  }
+
+  body {
+    color: white;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
