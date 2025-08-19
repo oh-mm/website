@@ -18,9 +18,11 @@
     display: block;
     margin: 0;
     width: 200px;
+    border-radius: 50%;
 }
 
 .thumbnail {
     height: 50px;
     width: 50px;
+    border-radius: 50%;
 }
