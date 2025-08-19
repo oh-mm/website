@@ -43,9 +43,3 @@
   }
 }
 
-@media screen and (max-width: 640px) {
-  .container {
-    flex-direction: column;
-  }
-}
-
