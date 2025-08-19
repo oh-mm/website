@@ -13,20 +13,10 @@
     display: flex;
 }
 
-.left {
-    flex-shrink: 0;
-}
-
 .logo {
     display: block;
     margin: auto;
     width: 200px;
-}
-
-.right {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 .right h3,
